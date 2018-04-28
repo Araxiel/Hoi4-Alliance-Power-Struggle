@@ -1,0 +1,16 @@
+technology_sharing_group = {
+
+	id = alliance_tech_sharing
+	name = alliance_tech_sharing_group_name
+	desc = alliance_tech_sharing_group_desc
+	picture = GFX_technology_sharing_default
+
+	#Can be improved
+	research_sharing_per_country_bonus = 0.05
+	is_faction_sharing = yes
+
+  available = {
+    is_in_faction = yes
+  }
+
+}

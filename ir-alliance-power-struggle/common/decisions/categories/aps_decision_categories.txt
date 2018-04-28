@@ -1,0 +1,19 @@
+
+alliance_category = {
+
+	allowed = {
+		#has_dlc = "Together for Victory"
+	}
+	visible = {
+		is_in_faction = yes
+		num_faction_members > 0
+	}
+
+	#icon = generic_formable_nations
+	icon = power_struggle
+	picture = GFX_decision_cat_picture_chi_political_support
+	priority = {
+		base = 3
+	}
+
+}
