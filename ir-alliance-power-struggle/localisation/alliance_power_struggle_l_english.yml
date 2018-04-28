@@ -1,0 +1,25 @@
+﻿l_english:
+
+## Titles
+
+alliance_category: "[Root.GetFactionName] Decisions"
+alliance_category_desc: "To weather the coming storm, we need to strengthen the bond between the countries of the [Root.GetFactionName].\n\n[Root.alliance_power_struggle_desc]"
+
+alliance_power_struggle_desc.leader: "We are currently the faction leader.\nWe currently have [?Root.alliance_total_political_support_points|+0] §HPolitical Support Points§!."
+alliance_power_struggle_desc.member: "We are a member of the [From.GetFactionName].\nWe currently have [?Root.alliance_total_political_support_points|+0] §HPolitical Support Points§!."
+alliance_power_struggle_desc.puppet_of_leader: "We are currently a puppet of the faction leader. We have to become independent before we can hope to seize power."
+alliance_power_struggle_desc.puppet_not_leader: "We are currently a puppet of a member of the [From.GetFactionName]. We have to become independent before we can even hope to seize power."
+
+## Power Struggle
+
+in_alliance_strength: "[Root.GetName]'s Alliance Influence"
+in_alliance_strength_final_value_breakdown: "[Root.GetNameDefCap] has [?Root.alliance_total_political_support_points|+0] §HPolitical Support Points§!\n[Root.GetStateSupport][Root.GetWarlordSupport][Root.GetOtherSupport]\n\n"
+in_alliance_strength_final_value_breakdown_short: "[Root.GetNameDefCap] has [?Root.alliance_total_political_support_points|+0] §HPolitical Support Points§!\n"
+in_alliance_strength_final_value_icon_value: "[?Root.alliance_total_political_support_points|0H]"
+
+## Decisions
+running_ally_program: "Currently Implementing Alliance Policy"
+alliance_decision_ally_tech_sharing: "Share Technology with [From.GetName]"
+alliance_decision_ally_tech_sharing_desc: "We shall invite [From.GetName] to share our technological progress, creating a stronger bond."
+alliance_tech_sharing_group_name: "Alliance Technology Sharing Group"
+alliance_tech_sharing_group_desc: "A combined effort by the countries of this alliance to share important knowledge."
