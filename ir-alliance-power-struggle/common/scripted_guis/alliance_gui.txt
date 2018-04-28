@@ -1,0 +1,21 @@
+aps_diplo_window = {
+
+  context_type = selected_country_context
+  window_name = "alliance_power_struggle_diplo_window"
+  parent_window_token = selected_country_view_diplomacy
+
+  visible = {
+    FROM = {
+      is_in_faction_with = ROOT
+    }
+  }
+
+  effects = {
+
+  }
+
+  triggers = {
+
+  }
+
+}

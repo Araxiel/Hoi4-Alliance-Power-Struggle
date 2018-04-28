@@ -1,0 +1,19 @@
+on_actions = {
+
+  on_daily = {
+    effect = {
+
+    }
+  }
+  on_startup = {
+    effect = {
+      every_country = {
+        limit = {
+          is_faction_leader = yes
+        }
+        set_country_flag = LN_league_member
+      }
+    }
+  }
+
+}

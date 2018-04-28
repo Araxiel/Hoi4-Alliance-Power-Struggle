@@ -1,0 +1,32 @@
+defined_text = { # Country
+	name = alliance_power_struggle_desc
+	text = {
+		trigger = {
+      is_faction_leader = yes
+		}
+		localization_key = alliance_power_struggle_desc.leader
+	}
+	text = {
+		trigger = {
+      is_faction_leader = no
+      is_puppet = yes
+      OVERLORD = {
+        is_faction_leader = yes
+      }
+		}
+		localization_key = alliance_power_struggle_desc.puppet_of_leader
+	}
+	text = {
+		trigger = {
+      is_faction_leader = no
+      is_puppet = yes
+      OVERLORD = {
+        is_faction_leader = no
+      }
+		}
+		localization_key = alliance_power_struggle_desc.puppet_not_leader
+	}
+	text = {
+		localization_key = alliance_power_struggle_desc.member
+	}
+}
